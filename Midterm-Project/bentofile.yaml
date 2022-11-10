@@ -1,0 +1,10 @@
+service: "service_midterm.py:svc"
+labels:
+  owner: uguror
+  projects: midterm
+include:
+- "*.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
